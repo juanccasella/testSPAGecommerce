@@ -1,8 +1,11 @@
-import React from 'react'
+import './styles.module.css'
 
-const ItemListContainer = (prop) => {
+const ItemListContainer = ({greeting}) => {
+    
     return(
-    <h1>Hola</h1>
+        <>
+        <h2>{greeting}</h2>
+        </>
     )
 }
 

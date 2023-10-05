@@ -1,13 +1,12 @@
 import { useState } from 'react'
-import NavBar from './components/NavBar/NavBar'
-import ItemListContainer from './components/ItemListContainer/ItemListContainer'
-
+import ItemListContainer from './components/itemListContainer/itemListContainer'
+import NavBar from './components/navBar/NavBar'
 
 function App() {
   return (
     <>
       <NavBar/>
-      <ItemListContainer/>
+      <ItemListContainer greeting="Bienvenido a SPAG tienda online"/>
     </>
   )
 }

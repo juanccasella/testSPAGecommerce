@@ -1,12 +1,14 @@
-import React from "react";
 import Carrito from '../../assets/images/carrito.svg'
+import { Avatar, Badge } from 'antd'
+import {ShoppingCartOutlined} from '@ant-design/icons'
 
 const CartWidget = () => {
     
     return(
-        <img src={Carrito} alt="" />
-        // <div><i className="fas fa-cart-plus" style="color: #000000;"></i></div>
+        <Badge count={5}>
+            <Avatar shape="square" size="large" icon={<ShoppingCartOutlined />} />
+        </Badge>
     )
 }
 
-export default CartWidget;
+export default CartWidget
