@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Mukta:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,500;0,900;1,100&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: rgb(107, 131, 65);
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.logo span{
+    font-weight: bold;
+}
