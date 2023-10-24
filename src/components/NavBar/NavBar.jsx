@@ -3,19 +3,21 @@ import './styles.module.css'
 
 const NavBar = () => {
     
+    const arrayDeCategorias = [
+        "electronics",
+        "jewelery",
+        "men's clothing",
+        "women's clothing"
+        ]
+
     return (
-        <>
+        <div className={StyleSheet.navbar}>
             <nav>
                 <a className='home' href="">SPAG <span>Tienda</span></a>
-                <ul>
-                    <li href="">Inicio</li>
-                    <li href="">Shop</li>
-                    <li href="">Contacto</li>
-                    <li href="">Info</li>
-                    <li href=""><CartWidget/></li>
-                </ul>
+                {arrayDeCategorias.map((cat,index) => <li key={index}>{cat}</li>)}
+                <CartWidget />
             </nav>
-        </>
+        </div>
     )
 }
 
