@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import CartWidget from '../cartWidget/cartWidget'
 import './styles.module.css'
 
@@ -13,7 +14,7 @@ const NavBar = () => {
     return (
         <div className={StyleSheet.navbar}>
             <nav>
-                <a className='home' href="">SPAG <span>Tienda</span></a>
+                <Link to={'/'}>SPAG Tienda</Link>
                 {arrayDeCategorias.map((cat,index) => <li key={index}>{cat}</li>)}
                 <CartWidget />
             </nav>

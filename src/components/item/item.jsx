@@ -7,7 +7,7 @@ const Item = ({producto}) => {
         <div className={styles.card}>
             <h3>{producto.title}</h3>
             <p>USD {producto.price}</p>
-            <Link to={`/item/${producto.id}`}>Ver mas</Link>
+            <Link to={`/item/${producto.id}`}>Ver producto</Link>
         </div>
     )
 }
