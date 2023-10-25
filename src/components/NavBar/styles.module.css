@@ -3,14 +3,19 @@
 
 /* Corregir estilo del navbar */
 
-* {
+/* * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-nav {
-    background-color: rgb(107, 131, 65);
+.navbar {
+    background-color: brown;
+} */
+
+/* 
+.navbar2 {
+    background-color: rgb(107, 131, 65)!important;
     height: 90px;
     width: 100%;
     display: flex;
@@ -48,4 +53,4 @@ a:hover{
 
 span{
     font-weight: bold;
-}
+}  */

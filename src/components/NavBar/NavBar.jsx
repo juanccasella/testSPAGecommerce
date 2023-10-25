@@ -1,7 +1,7 @@
+import './styles.module.css'
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import CartWidget from '../cartWidget/cartWidget'
-import './styles.module.css'
 
 function Navbar() {
 
@@ -13,10 +13,10 @@ function Navbar() {
         ]
 
     return (
-        <div className={StyleSheet.navbar}>
-        <NavLink to={'/'}>SPAG Tienda</NavLink>
+        <div className="navbar2">
+            <NavLink to={'/'}>SPAG Tienda</NavLink>
             {arrayDeCategorias.map((cat, index) =>
-            <NavLink to={`/category/${cat}`} className={Navbar} key={index}>{cat}</NavLink>)}
+            <NavLink to={`/category/${cat}`} key={index}>{cat}</NavLink>)}
             <CartWidget />
         </div>
     )

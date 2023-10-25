@@ -1,4 +1,3 @@
-import Carrito from '../../assets/images/carrito.svg'
 import { Avatar, Badge } from 'antd'
 import {ShoppingCartOutlined} from '@ant-design/icons'
 
