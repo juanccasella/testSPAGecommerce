@@ -5,10 +5,10 @@ import { useParams } from 'react-router-dom'
 
 const ItemListContainer = ({greeting}) => {
     const [products, setProducts] = useState([])
-    const {nombreCategoria} = useParams()
+    const {id} = useParams()
 
     useEffect(() => {
-        const url = nombreCategoria ?  `https://fakestoreapi.com/products/category/${nombreCategoria}` : `https://fakestoreapi.com/products`
+        const url = id ?  `https://fakestoreapi.com/products/category/${id}` : `https://fakestoreapi.com/products`
         fetch(url)
             .then(res=>res.json())
             .then(json=>{
@@ -16,8 +16,8 @@ const ItemListContainer = ({greeting}) => {
                 setProducts(json)
             })
             .catch(error => console.error(error))
-            console.log(nombreCategoria)      
-    }, [nombreCategoria])
+            console.log(id)      
+    }, [id])
 
     return(
         <div className={StyleSheet.container}>
