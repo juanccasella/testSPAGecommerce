@@ -4,8 +4,7 @@ import { Link } from 'react-router-dom'
 const Home = () => {
     return (
         <div className='home'>
-            <h1>Bienvenido a la tienda online de King St4mp</h1>
-            <p>Aquí podras encontrar productos de todo tipo</p>
+            <h1>Bienvenido a SPAG tienda</h1>
             <Link to={'/products'} className='b-home'>Entrar a la Tienda</Link>
         </div>
     )
