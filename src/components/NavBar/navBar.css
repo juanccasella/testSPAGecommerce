@@ -1,52 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Mukta:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,500;0,900;1,100&display=swap");
-
-
-
-.logo {
-    background-color: brown;
-}
-.navbar {
-    background-color: brown;
-} 
-
-/* 
-.navbar2 {
-    background-color: rgb(107, 131, 65)!important;
-    height: 90px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.navbar{
+    background-color: rgb(18, 139, 48);
 }
 
-ul{
-    display: flex;
-    align-items: center;
+a{
+    color: aliceblue;
+    text-decoration: none !important; 
 }
 
-li{
-    list-style: none;
-    padding: 3rem;
+a:hover {
+    color: azure;
+    font-weight: bolder;
 }
 
-li:hover {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    cursor: pointer;
+.logo{
+    font-size: 30px;
 }
-
-a {
-    color: black;
-    margin-right: 1rem;
-    font-size: 20px;
-    font-weight: 400;
-}
-
-a:hover{
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
-
-span{
-    font-weight: bold;
-}  */
