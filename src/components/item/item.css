@@ -1,0 +1,14 @@
+img{
+    width: 300px !important;
+    height:auto ;
+}
+
+.verMas{
+    text-decoration: none !important;
+    color: rgb(18, 139, 48) !important;
+}
+
+.verMas:hover{
+    font-weight: bold;
+    border: none;
+}

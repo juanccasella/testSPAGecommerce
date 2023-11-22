@@ -1,5 +1,8 @@
+
 .navbar{
     background-color: rgb(18, 139, 48);
+    height: 100px;
+    /* padding: 10%; */
 }
 
 a{
@@ -8,10 +11,11 @@ a{
 }
 
 a:hover {
-    color: azure;
-    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    border-bottom: 1.5px solid rgb(0, 0, 0);
 }
 
 .logo{
     font-size: 30px;
 }
+

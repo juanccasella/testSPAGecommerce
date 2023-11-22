@@ -18,16 +18,16 @@ const ItemDetail = ( {item} ) => {
     }
 
     return (
-            <div className="detail-container">
-                <div className="prod-img">
+            <div>
+                <div>
                 <img src={item.image} alt={item.title} />
                 </div>
                 <div>
-                    <h3 className="d-title">{item.title}</h3>
-                    <p className="prod-cat">Categoria: {item.categoryId}</p>
-                    <p className="prod-desc">{item.description}</p>
-                    <p className="prod-price">${item.price}</p>
-                    <p className="prod-price">Stock: {item.stock}</p>
+                    <h3>{item.title}</h3>
+                    <p>Categoria: {item.categoryId}</p>
+                    <p>{item.description}</p>
+                    <p>${item.price}</p>
+                    <p>Stock: {item.stock}</p>
                     <ItemCount quantity={quantity} sumar={sumar} restar={restar} addToCart={() => {addToCart(item, quantity)}}/>
                 </div>
             </div>

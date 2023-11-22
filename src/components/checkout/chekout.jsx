@@ -30,7 +30,7 @@ const Checkout = () => {
 
     if(orderId){
         return(
-            <div className="order-fin">
+            <div>
                 <h1>Muchas gracias por tu compra!</h1>
                 <p>Te contactaremos via email para coordinar la entrega en 2 dias hábiles.</p>
                 <p>Tu número de pedido es: {orderId}</p>
@@ -40,15 +40,15 @@ const Checkout = () => {
     }
 
     return (
-        <div className="order">
+        <div>
             <h1>Finalizar compra</h1>
-            <form className="form" onSubmit={handleSubmit(comprar)}>
+            <form onSubmit={handleSubmit(comprar)}>
                 
                 <input type="text" placeholder="Ingresa tu nombre y apellido" {...register("nombre")} required/>
                 <input type="email" placeholder="Ingresa tu email" {...register("email")} required/>
                 <input type="phone" placeholder="Ingresa tu teléfono" {...register("telefono")} required/>
 
-                <button className="buy" type="submit">Comprar</button>
+                <button type="submit">Comprar</button>
             </form>
         </div>
     )
