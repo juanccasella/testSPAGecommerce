@@ -8,10 +8,10 @@ const NavBar = () => {
 
         <div className='navbar'>
             <NavLink className='logo' to={'/products'}>SPAG tienda</NavLink>
-            <NavLink to={"/products/electrodomésticos"}>Electrodomésticos</NavLink>
-            <NavLink to={"/products/bazar"}>Bazar</NavLink>
-            <NavLink to={"/products/cafeteras"}>Cafeteras</NavLink>
-            <NavLink to={"/products/cuchillería"}>Cuchillería</NavLink>
+            <NavLink to={"/products/Electrodomésticos"}>Electrodomésticos</NavLink>
+            <NavLink to={"/products/Bazar"}>Bazar</NavLink>
+            <NavLink to={"/products/Cafeteras"}>Cafeteras</NavLink>
+            <NavLink to={"/products/Cuchillería"}>Cuchillería</NavLink>
             <CartWidget/>
         </div>
     )
