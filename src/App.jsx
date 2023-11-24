@@ -7,7 +7,6 @@ import { CartProvider } from './components/cartContext/cartContext'
 import Home from './components/home/home'
 import Cart from './components/cart/cart'
 import Checkout from './components/checkout/chekout'
-// import { NOTIMP } from 'dns'
 
 function App() {
 
