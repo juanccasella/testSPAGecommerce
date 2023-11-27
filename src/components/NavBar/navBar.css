@@ -1,7 +1,7 @@
 
 .navbar{
     background-color: rgb(18, 139, 48);
-    height: 100px;
+    height: auto;
 }
 
 a{
@@ -14,7 +14,15 @@ a:hover {
     border-bottom: 1.5px solid rgb(0, 0, 0);
 }
 
-.logo{
+.logoTexto{
     font-size: 30px;
 }
 
+.logoImg{
+    max-width: 100px;
+    width: 100%;
+}
+
+.DropDown{
+    background-color: transparent !important;
+}

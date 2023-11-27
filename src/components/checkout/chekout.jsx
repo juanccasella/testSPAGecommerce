@@ -65,7 +65,7 @@ const [orderId, setOrderId] = useState("");
 const { cart, totalPrice, emptyCart } = useContext(CartContext);
 
 const comprar = async (e) => {
-    e.preventDefault(); // Evita que el formulario se envíe de forma predeterminada
+    e.preventDefault();
 
     const data = new FormData(e.target);
     const order = {
