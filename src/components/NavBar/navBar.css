@@ -1,28 +1,44 @@
-
-.navbar{
-    background-color: rgb(18, 139, 48);
+/* .navbar{
+    background-color: #006465;
     height: auto;
-}
-
-a{
     color: aliceblue;
     text-decoration: none !important; 
-}
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+} */
 
-a:hover {
-    color: rgb(0, 0, 0);
-    border-bottom: 1.5px solid rgb(0, 0, 0);
+/* .navBar:hover {
+    opacity: 0.7;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 5px;
+    padding: 5px;
 }
 
 .logoTexto{
     font-size: 30px;
 }
 
-.logoImg{
-    max-width: 100px;
+.logoNavbar{
+    max-width: 60px;
     width: 100%;
 }
 
 .DropDown{
     background-color: transparent !important;
+} */
+.navbar{
+    background-color: #006465;
+    height: auto;
+}
+
+.logoTexto{
+    color: white;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.logoTexto:hover{
+    color: white;
+    text-decoration: none !important;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
