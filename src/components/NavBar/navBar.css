@@ -18,6 +18,7 @@
 }
 
 .navBarDerecha{
+    align-items: center;
     margin-right: 10%;
     display: flex;
     justify-content: space-between;
@@ -27,7 +28,6 @@
     margin-right: 10px;
     padding: 10px;
     color: white;
-    padding: 10px;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
