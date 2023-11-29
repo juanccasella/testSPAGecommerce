@@ -1,0 +1,14 @@
+.cart{
+    display: flex;
+    margin-left: 10%;
+    color: white;
+    padding: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.cart:hover{
+    color: white;
+    text-decoration: none !important;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}

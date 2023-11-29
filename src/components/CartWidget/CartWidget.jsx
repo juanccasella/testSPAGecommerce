@@ -1,8 +1,8 @@
-// FALTA LA IMAGEN DEL CARRITO
 import { Link } from 'react-router-dom'
 import { useContext } from 'react'
 import { CartContext } from '../cartContext/cartContext'
 import iconCart from '../../assets/images/icons/iconCart.svg'
+import "./cartWidget.css"
 
 
 const CartWidget = () => {
@@ -11,7 +11,7 @@ const CartWidget = () => {
 
     return(
         <div>
-            <Link to="/cart">
+            <Link className="cart" to="/cart">
                 <img src={iconCart} alt="" />
                 <span id='cart-counter'>{cartQuantity()}</span>
             </Link>

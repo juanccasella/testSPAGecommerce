@@ -10,7 +10,7 @@ const NavBar = () => {
         <div className='navbar'>
             <NavLink className='logoTexto' to={'/products'}><img src={logoNegro} alt="" /> SPAG tienda</NavLink>
             <div className="navBarDerecha">
-                <NavLink to={'/'}>Inicio</NavLink>
+                <NavLink className="inicio" to={'/'}>Inicio</NavLink>
                 <Dropdown>
                     <Dropdown.Toggle className="DropDown" id="dropdown-basic">
                         Productos
