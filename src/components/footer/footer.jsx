@@ -1,6 +1,6 @@
 import React from 'react';
 import "./footer.css"
-import logoBlanco from "../../assets/images/logos/logoBlanco.png"
+import logoVerde from "../../assets/images/logos/logoVerde.png"
 import { NavLink } from 'react-router-dom';
 import iconFacebook from "../../assets/images/icons/iconFacebook.svg";
 import iconTwitter from "../../assets/images/icons/iconTwitter.svg";
@@ -10,7 +10,7 @@ import iconInstagram from "../../assets/images/icons/iconInstagram.svg";
 const Footer = () => {
     return (
         <div className='footer'>
-            <NavLink to={'/'} className='footerLogo'><img src={logoBlanco} alt="" />SPAGtienda</NavLink>
+            <NavLink to={'/'} className='footerLogo'><img src={logoVerde} alt="" />SPAGtienda</NavLink>
             <div className="footerIcons">
                 <p className='footerProximamente'>Proximamente en</p>
                 <img src={iconFacebook} alt="Facebook" />

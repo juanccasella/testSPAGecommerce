@@ -5,7 +5,7 @@
 
 .logoTexto{
     margin-left: 10%;
-    color: white;
+    color: rgba(255, 255, 255, 0.800);
     padding: 10px;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
@@ -14,44 +14,48 @@
     color: white;
     text-decoration: none !important;
     transform: scale(1.1);
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+.logoTexto img{
+    max-width: 50px;
+}
+
 .navBarDerecha{
-    align-items: center;
     margin-right: 10%;
     display: flex;
     justify-content: space-between;
 }
 
-.inicio{
-    margin-right: 10px;
-    padding: 10px;
-    color: white;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-}
-
-.inicio:hover{
-    color: white;
-    text-decoration: none !important;
-    transform: scale(1.1);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-.DropDown{
+.DropDown,
+.navLink{
+    display: flex;
+    align-items: center;
+    height: 70px;
     margin-right: 10px;
     background-color: transparent;
     border-radius: 0;
     border-color: transparent;
-    padding: 10px;
-    color: white;
+    color: rgba(255, 255, 255, 0.800);
     padding: 10px;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-.DropDown:hover{
+.DropDown:hover,
+.navLink:hover{
+    color: white;
     background-color: transparent;
     border-color: transparent;
     text-decoration: none !important;
     transform: scale(1.1);
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.show>.btn-primary.dropdown-toggle {
+    color: white;
+    background-color: transparent; 
+    border-color: transparent; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) !important;
 }

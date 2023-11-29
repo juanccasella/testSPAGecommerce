@@ -1,14 +1,26 @@
-img{
-    width: 300px !important;
-    height:auto ;
+.cardItem{
+    margin: 50px;
+    width: 300px;
+    height: 400px;
+    color: black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    justify-content: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-.verMas{
-    text-decoration: none !important;
-    color: rgb(18, 139, 48) !important;
+.cardItem:hover{
+    color: black;
+    transform: scale(1.1);
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.verMas:hover{
-    font-weight: bold;
-    border: none;
+.cardItem img{
+    width: 300px;
+    height: 200px;
 }

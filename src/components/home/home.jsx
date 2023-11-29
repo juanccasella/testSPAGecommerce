@@ -1,11 +1,12 @@
 import { Link } from 'react-router-dom'
 import "./home.css"
+import Slides from '../homeSlide/homeSlides'
 
 const Home = () => {
     return (
-        <div>
-            <h1>Bienvenido a SPAG tienda</h1>
-            <Link to={'/products'}>Entrar a la Tienda</Link>
+        <div className='homeContainer'>
+            <h1 className='bienvenida'>Bienvenido a SPAG tienda</h1>
+            <Slides/>
         </div>
     )
 }

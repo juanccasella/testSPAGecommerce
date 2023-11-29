@@ -1,5 +1,5 @@
 .footer{
-    background-color: #484848;
+    background-color: black;
     margin-top: 20px;
     width: 100%;
     text-align: center;
@@ -7,8 +7,12 @@
     margin-top: auto;
 }
 
-img{
-    max-width: 50px;
+.footerLogo img{
+    width: 50px;
+}
+
+.footerIcons img{
+    width: 30px;
 }
 .footerLogo{
     color: #0f928c !important;
@@ -17,7 +21,7 @@ img{
     align-items: center;
     justify-content: center;
     padding: 20px 0;
-    border-bottom: 2px solid white;
+    border-bottom: 1px solid white;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 

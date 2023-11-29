@@ -1,16 +1,17 @@
-import CartWidget from "../cartWidget/cartWidget"
 import { NavLink } from 'react-router-dom'
 import "./navBar.css"
-import logoNegro from "../../assets/images/logos/logoNegro.png"
+import logoBlanco from "../../assets/images/logos/logoBlanco.png"
 import Dropdown from 'react-bootstrap/Dropdown';
+import CartWidget from '../cartWidget/CartWidget';
 
 const NavBar = () => {
 
     return(
         <div className='navbar'>
-            <NavLink className='logoTexto' to={'/products'}><img src={logoNegro} alt="" /> SPAG tienda</NavLink>
+            <NavLink className='logoTexto' to={'/products'}><img src={logoBlanco} alt="" /> SPAG tienda</NavLink>
             <div className="navBarDerecha">
-                <NavLink className="inicio" to={'/'}>Inicio</NavLink>
+                <NavLink className="navLink" to={'/'}>Inicio</NavLink>
+                <NavLink className="navLink" to={'/products'}>Todos los productos</NavLink>
                 <Dropdown>
                     <Dropdown.Toggle className="DropDown" id="dropdown-basic">
                         Productos
