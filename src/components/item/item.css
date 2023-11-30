@@ -1,14 +1,15 @@
 .cardItem{
-    margin: 50px;
+    margin: 15px;
     width: 300px;
-    height: 400px;
+    max-height: 500px;
     color: black;
     background-color: white;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
     overflow: hidden;
-    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
@@ -17,10 +18,17 @@
     transform: scale(1.1);
     text-decoration: none;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .cardItem img{
-    width: 300px;
+    margin: 15px;
+    width: 95%;
+    width: 200px;
     height: 200px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.527);
+}
+
+.cardText{
+    margin: 30px;
+    text-align: left;
 }

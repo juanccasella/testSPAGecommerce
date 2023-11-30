@@ -15,9 +15,8 @@ const NavBar = () => {
     return (
         <div className='navbar'>
             <NavLink className='logoTexto' to={'/products'}><img src={logoBlanco} alt="" /> SPAG tienda</NavLink>
-
             <div className={`navBarDerecha ${showMenu ? 'show' : ''}`}>
-                <NavLink className="navLink" exact to={'/'}>Inicio</NavLink>
+                <NavLink className="navLink" to={'/'}>Inicio</NavLink>
                 <NavLink className="navLink" to={'/products'}>Todos los productos</NavLink>
                 <Dropdown>
                     <Dropdown.Toggle className="DropDown" id="dropdown-basic">

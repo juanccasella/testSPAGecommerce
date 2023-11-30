@@ -1,0 +1,25 @@
+.counter{
+    display: block;
+    margin: 10px;
+    padding: 10px;
+}
+
+.counterSumaResta,
+.counterBoton,
+.counterAgregar{
+    padding: 30px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    max-height: 50px;
+    justify-content: left;
+
+}
+
+{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.counterNumero{
+    margin: 0;
+}

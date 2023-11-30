@@ -1,0 +1,33 @@
+.itemDetailContainer{
+    display: flex;
+    margin: 5% 15%;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    border-radius: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.itemDetailContainer img{
+    height: auto;
+}
+
+.descriptionContainer{
+    margin: 50px;
+    text-align: left;
+    max-width: 800px;
+}
+
+.detailTitle{
+    font-size: 2vw;;
+}
+
+.detailCategory{
+    font-size: 1vw;
+}
+
+.detailDescription{
+    font-size: 1vw;
+    color: #484848;
+}

@@ -11,6 +11,7 @@
     margin-left: 10%;
     color: rgba(255, 255, 255, 0.800);
     padding: 10px;
+    border-radius: 15px;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
@@ -31,7 +32,7 @@
     height: 70px;
     margin-right: 10px;
     background-color: transparent;
-    border-radius: 0;
+    border-radius: 15px;
     border-color: transparent;
     color: rgba(255, 255, 255, 0.800);
     padding: 10px;
@@ -47,7 +48,7 @@
     border-color: transparent;
     text-decoration: none !important;
     transform: scale(1.1);
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
