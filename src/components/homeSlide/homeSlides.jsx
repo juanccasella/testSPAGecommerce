@@ -13,7 +13,7 @@ const Slides = () => {
     };
 
     useEffect(() => {
-        const interval = setInterval(showSlides, 5000);
+        const interval = setInterval(showSlides, 4000);
         return () => clearInterval(interval);
     }, []);
 
