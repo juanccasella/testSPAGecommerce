@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useContext } from 'react'
 import { CartContext } from '../cartContext/cartContext'
-import iconCart from '../../assets/images/icons/iconCart.svg'
+import iconCart from '../../assets/images/icons/iconCart.png'
 import "./cartWidget.css"
 
 

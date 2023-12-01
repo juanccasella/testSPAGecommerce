@@ -13,13 +13,8 @@
     align-items: center;
     max-height: 50px;
     justify-content: left;
-
-}
-
-{
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .counterNumero{
-    margin: 0;
+    margin: 0px;
 }

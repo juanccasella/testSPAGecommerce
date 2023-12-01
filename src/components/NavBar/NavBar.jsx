@@ -3,7 +3,7 @@ import { useState } from 'react';
 import "./navBar.css"
 import logoBlanco from "../../assets/images/logos/logoBlanco.png"
 import Dropdown from 'react-bootstrap/Dropdown';
-import CartWidget from '../cartWidget/CartWidget';
+import CartWidget from '../cartWidget/cartWidget';
 
 const NavBar = () => {
     const [showMenu, setShowMenu] = useState(false);
@@ -14,7 +14,7 @@ const NavBar = () => {
 
     return (
         <div className='navbar'>
-            <NavLink className='logoTexto' to={'/products'}><img src={logoBlanco} alt="" /> SPAG tienda</NavLink>
+            <NavLink className='logo' to={'/products'}><img src={logoBlanco} alt="" /> SPAG tienda</NavLink>
             <div className={`navBarDerecha ${showMenu ? 'show' : ''}`}>
                 <NavLink className="navLink" to={'/'}>Inicio</NavLink>
                 <NavLink className="navLink" to={'/products'}>Todos los productos</NavLink>
