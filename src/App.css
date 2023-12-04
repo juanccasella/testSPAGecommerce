@@ -3,6 +3,12 @@
     text-align: center;
 }
 
+@media only screen and (max-width: 900px){
+    .body{
+        min-height: 60vh;
+    }
+}
+
 :root{
     --textLink-white-rgba-color: rgba(255, 255, 255, 0.800);
     --border-radius: 15px;

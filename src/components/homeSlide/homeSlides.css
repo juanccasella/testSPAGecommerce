@@ -1,6 +1,6 @@
 .slides {
     display: flex;
-    width: 90%;
+    width: 80%;
     justify-content: center;
     margin: 5% auto;
 }
@@ -24,19 +24,19 @@
 .slideTexto {
     height: auto;
     background-color: #006365b4;
-    padding: 25px;
+    padding: 20px;
     border-radius: 15px;
     color: white;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 30px;
+    font-size: 29px;
     text-align: center;
 }
 
 .slideLink {
-    width: 80%;
+    width: 90%;
     min-width: 800px;
     position: relative;
     border-radius: 15px; 
@@ -49,3 +49,22 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+@media only screen and (max-width: 900px) {
+    .slides {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .slideLink {
+        min-width: auto;
+    }
+
+    .slideTexto {
+        width: 80%;
+        font-size: 15px;
+        padding: 10px;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    }
+}
