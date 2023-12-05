@@ -10,9 +10,11 @@ import iconInstagram from "../../assets/images/icons/iconInstagram.svg";
 const Footer = () => {
     return (
         <div className='footer'>
-            <NavLink to={'/'} className='footerLogo'><img src={logoVerde} alt="" />SPAGtienda</NavLink>
+            <NavLink to={'/'} className='footerLogo'>
+            <img src={logoVerde} alt="" />
+            <span>SPAG tienda</span>
+            </NavLink>
             <div className="footerIcons">
-                <p className='footerProximamente'>Proximamente en</p>
                 <img src={iconFacebook} alt="Facebook" />
                 <img src={iconTwitter} alt="Twitter" />
                 <img src={iconMail} alt="Mail" />

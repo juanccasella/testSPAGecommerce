@@ -1,33 +1,72 @@
 .itemDetailContainer{
-    display: flex;
     margin: 5% 15%;
-    padding: 50px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     background-color: white;
     border-radius: 10px;
+    overflow: hidden;
+}
+
+.detailContainer{
+    margin: 20px 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
 }
 
-.itemDetailContainer img{
-    height: auto;
+.detailContainer img{
+    height: 350px;
 }
 
-.descriptionContainer{
-    margin: 50px;
+.detail{
     text-align: left;
-    max-width: 800px;
 }
 
 .detailTitle{
-    font-size: 2vw;;
+    font-size: 30px;
 }
 
 .detailCategory{
-    font-size: 1vw;
+    font-size: 20px;
 }
 
-.detailDescription{
-    font-size: 1vw;
-    color: #484848;
+.descriptionContainer{
+    padding: 15px;
+    margin: 20px 30px;
+    text-align: left;
+    border: 1px solid rgba(128, 128, 128, 0.527);
+    border-radius: var(--border-radius);
 }
+
+.descriptionContainer h3{
+    font-size: 20px;
+}
+
+.descriptionContainer p{
+    font-size: 15px;
+}
+
+/* hasta aca completo */
+
+/* .descriptionContainerCart{
+    display: flex;
+    align-items: center;
+}
+
+.descriptionContainerCart h4{
+    display: flex;
+    flex-direction: column;
+} */
+
+/* los h4 a la derecha del itemcount, pero uno debajo del otro */
+
+/* .descriptionContainerCart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.descriptionContainerCart h4 {
+    flex-direction: column;
+    margin-left: 10px;
+} */

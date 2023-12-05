@@ -1,3 +1,5 @@
+/* Corregir el desplegable, y corregir el border raidus del menu en en media queri, cuando se aplica la animacion */
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -92,6 +94,14 @@
         transition: var(--transition);
         display: block;
         cursor: pointer;
-        margin-right: 10px;
+        margin-right: 10%;
+    }
+
+    .logo{
+        margin-left: 10%;
+    }
+
+    .logoTexto{
+        display: none;
     }
 }

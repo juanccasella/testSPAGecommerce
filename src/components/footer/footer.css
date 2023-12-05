@@ -7,17 +7,9 @@
     margin-top: 30px;
 }
 
-.footerLogo img{
-    max-width: 50px;
-}
-
-.footerIcons img{
-    width: 30px;
-}
 .footerLogo{
     font-size: 1.2em;
-    color: #0f928c !important;
-    text-decoration: none !important;
+    color: #0f928c;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,10 +19,15 @@
 }
 
 .footerLogo:hover{
+    text-decoration: none;
+    color: #0f928c;
     transform: scale(1.1);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+.footerLogo img{
+    max-width: 50px;
+}
 
 .footerIcons{
     display: flex;
@@ -40,15 +37,16 @@
     border-bottom: 1px solid white;
     flex-wrap: wrap;
 } 
-.footerProximamente{
-    color: #0f928c;
-    margin-bottom: 0;
-}
 
-.footerIcons img {
+.footerIcons img{
+    width: 30px;
     margin: 0 30px; 
 }
 
 .footerCopy{
     padding: 10px;
+}
+
+@media only screen and (max-width: 900px) {
+/* completar el responsive, como el navbar */
 }

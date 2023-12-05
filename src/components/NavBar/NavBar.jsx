@@ -14,7 +14,10 @@ const NavBar = () => {
 
     return (
         <div className='navbar'>
-            <NavLink className='logo' to={'/products'}><img src={logoBlanco} alt="" /> SPAG tienda</NavLink>
+            <NavLink className='logo' to={'/products'}>
+                <img src={logoBlanco} alt="" /> 
+                <span className='logoTexto'>SPAG tienda</span>
+            </NavLink>
             <div className={`navBarDerecha ${showMenu ? 'show' : ''}`}>
                 <NavLink className="navLink" to={'/'}>Inicio</NavLink>
                 <NavLink className="navLink" to={'/products'}>Todos los productos</NavLink>

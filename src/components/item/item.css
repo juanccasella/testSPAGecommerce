@@ -33,3 +33,18 @@
     text-align: left;
 }
 
+
+@media only screen and (max-width: 900px) {
+    .cardItem{
+        width: 200px;
+        max-height: 400px;
+    }
+
+    .cardText h4 {
+        font-size: 15px;
+    }
+
+    .cardText p {
+        font-size: 12px;
+    }
+}
