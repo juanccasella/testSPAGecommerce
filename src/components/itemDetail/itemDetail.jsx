@@ -22,16 +22,12 @@ const ItemDetail = ( {item} ) => {
                 <div className="detail">
                     <h3 className="detailTitle">{item.title}</h3>
                     <p className="detailCategory">Categoria: {item.categoryId}</p>
-                </div>   
-            </div>
-            <div className="descriptionContainer">
-                <h3>Descripción del producto</h3>
-                <p>{item.description}</p>
-                <div className="descriptionContainerCart">
+                    <h3>Descripción del producto</h3>
+                    <p>{item.description}</p>
                     <ItemCount quantity={quantity} sumar={sumar} restar={restar} addToCart={() => {addToCart(item, quantity)}}/>
                     <h4>Precio ${item.price}</h4>
                     <h4>Stock: {item.stock}</h4>
-                </div>
+                </div>   
             </div>
         </div>
     )

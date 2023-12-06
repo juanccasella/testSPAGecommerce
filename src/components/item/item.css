@@ -21,11 +21,10 @@
 }
 
 .cardItem img{
-    margin: 15px;
+    margin: 20px;
     width: 95%;
-    width: 200px;
     height: 200px;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.527);
+    width: auto;
 }
 
 .cardText{

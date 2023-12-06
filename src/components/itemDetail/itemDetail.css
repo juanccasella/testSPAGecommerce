@@ -12,10 +12,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 1px solid rgba(128, 128, 128, 0.527);
+    border-radius: var(--border-radius);
 }
 
 .detailContainer img{
-    height: 350px;
+    height: 400px;
+    width: auto;
 }
 
 .detail{
