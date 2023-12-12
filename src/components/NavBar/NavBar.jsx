@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import { useState } from 'react';
 import "./navBar.css"
 import logoBlanco from "../../assets/images/logos/logoBlanco.png"
@@ -26,10 +26,10 @@ const NavBar = () => {
                         Productos
                     </Dropdown.Toggle>
                     <Dropdown.Menu>
-                        <Dropdown.Item href="/products/Electrodomésticos">Electrodomésticos</Dropdown.Item>
-                        <Dropdown.Item href="/products/Bazar">Bazar</Dropdown.Item>
-                        <Dropdown.Item href="/products/Cafeteras">Cafeteras</Dropdown.Item>
-                        <Dropdown.Item href="/products/Cuchillería">Cuchillería</Dropdown.Item>
+                        <Dropdown.Item as={Link} to="/products/Electrodomésticos">Electrodomésticos</Dropdown.Item>
+                        <Dropdown.Item as={Link} to="/products/Bazar">Bazar</Dropdown.Item>
+                        <Dropdown.Item as={Link} to="/products/Cafeteras">Cafeteras</Dropdown.Item>
+                        <Dropdown.Item as={Link} to="/products/Cuchillería">Cuchillería</Dropdown.Item>
                     </Dropdown.Menu>
                 </Dropdown>
                 <CartWidget />
